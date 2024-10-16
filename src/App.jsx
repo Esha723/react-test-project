@@ -1,3 +1,6 @@
+import Home from "./pages/Home/Home"
+import Navbar from "./pages/Navbar"
+
 
 
 function App() {
@@ -5,9 +8,8 @@ function App() {
 
   return (
     <>
-    <div>
-      <h1>Welcome to my react website!</h1>
-    </div>
+    <Navbar/>
+    <Home/>
     </>
   )
 }
